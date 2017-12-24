@@ -2,7 +2,7 @@ version: '3'
 services:
   react:
     build: ./
-    image: react-app
+    image: react-base
     ports:
       - '3000:3000'
     volumes:
